@@ -12,7 +12,6 @@ def int_input(func):
             raise CustomError
     return wrapper
 
-+\
     input = int_input(input)
 while True:
     try:
