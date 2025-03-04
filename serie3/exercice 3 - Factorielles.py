@@ -7,4 +7,3 @@ def fact(n=10):
 
 values = list(fact())
 print(values[-1])
-

@@ -6,4 +6,4 @@ def debug(func, *args, **kwargs):
         result = func(*args, **kwargs)
         print(f'The result is {result}')
 
-debug(math.factorial, 6)
+debug(math.factorial, 10)

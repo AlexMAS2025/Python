@@ -12,12 +12,12 @@ def int_input(func):
             raise CustomError
     return wrapper
 
-    input = int_input(input)
+input = int_input(input)
 while True:
     try:
         user_number = input("Entrez un nombre : ")
     except CustomError as e:
         print(e)
     else:
-        print(f"Vous+ avez entré : {user_number}")
+        print(f"Vous avez entré : {user_number}")
         break
